@@ -11,8 +11,36 @@ export default function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen name="Home" component={InspectionPageOne} />
-                <Stack.Screen name="Notifications" component={InspectionPageTwo} />
+                <Stack.Screen options={{
+                    title: 'Insprection Form',
+                    headerStyle: {
+                        backgroundColor: '#f4511e',
+                    },
+                    headerTintColor: '#fff',
+                    headerTitleStyle: {
+                        marginLeft: '25%',
+                        fontFamily: 'Inter',
+                        fontWeight: '600',
+                        fontSize: 25,
+                        letterSpacing:0.5
+
+                    },
+                }} name="InspectionPageOne" component={InspectionPageOne} />
+
+                <Stack.Screen options={{
+                    title: 'Insprection Form',
+                    headerStyle: {
+                        backgroundColor: '#f4511e',
+                    },
+                    headerTintColor: '#fff',
+                    headerTitleStyle: {
+                        marginLeft: '15%',
+                        fontFamily: 'Inter',
+                        fontWeight: '600',
+                        fontSize: 25,
+
+                    },
+                }} name="InspectionPageTwo" component={InspectionPageTwo} />
             </Stack.Navigator>
         </NavigationContainer>
     )
