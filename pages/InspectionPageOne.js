@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
+        
     },
     backgroundImg1: {
         flex: 1,

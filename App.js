@@ -14,7 +14,7 @@ export default function App() {
                 <Stack.Screen options={{
                     title: 'Insprection Form',
                     headerStyle: {
-                        backgroundColor: '#f4511e',
+                        backgroundColor: '#EB0A18',
                     },
                     headerTintColor: '#fff',
                     headerTitleStyle: {
